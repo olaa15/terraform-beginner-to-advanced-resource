@@ -4,8 +4,7 @@
 ```sh
 provider "aws" {
   region     = "us-west-2"
-  access_key = "YOUR-ACCESS-KEY"
-  secret_key = "YOUR-SECRET-KEY"
+
 }
 
 resource "aws_instance" "myec2" {
@@ -17,8 +16,7 @@ resource "aws_instance" "myec2" {
 ```sh
 provider "aws" {
   region     = "us-west-2"
-  access_key = "YOUR-ACCESS-KEY"
-  secret_key = "YOUR-SECRET-KEY"
+  
 }
 
 resource "aws_instance" "myec2" {
